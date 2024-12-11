@@ -1,0 +1,162 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#title {
+    justify-content: center;
+    width: auto;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    margin: 0px, auto;
+    animation: typing 8s forwards;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    80% {
+        width: 100%;
+    }
+    100% {
+        width: 100%;
+        white-space: normal;
+    }
+}
+
+#victim {
+    height: 300px;
+    width: 400px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+    background-image: url("images/lambchops.avif");
+    background-size: cover;
+}
+
+#victim-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    animation: blink 5s infinite;
+    background-image: url("images/lamb.avif");
+}
+
+@keyframes blink {
+    0% {
+        opacity:1;
+    }
+    90% {
+        opacity:1;
+    }
+    95% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+
+#age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#desc {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gif-section {
+    margin-top: 50px;
+}
+
+.gif-title {
+    margin-bottom: 10px;
+}
+
+.gif-hint {
+    margin-top: 0;
+}
+
+.gif-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gif-img-usa {
+    height: 300px;
+}
+
+#gif-img-usa:hover {
+    background-image: url("images/usa.gif");
+}
+
+#gif-img-kor {
+    height: 200px;
+}
+
+#gif-img-kor:hover {
+    background-image: url("images/kor.gif");
+    background-size: cover;
+}
+
+#gif-img-mor {
+    height: 250px;
+}
+
+#gif-img-mor:hover {
+    background-image: url("images/mor.gif");
+}
+
+#gif-img-chn {
+    height: 250px;
+}
+
+#gif-img-chn:hover {
+    background-image: url("images/chn.gif");
+}
+
+#gif-img-gbr {
+    height: 400px;
+}
+
+#gif-img-gbr:hover {
+    background-image: url("images/gbr.gif");
+}
+
+#footer {
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 0px 1px #000;
+    width: 400px;
+    margin: 40px auto 20px;
+    padding: 30px;
+    border-radius: 60%;
+    background-color: #a2d2ff;
+}
